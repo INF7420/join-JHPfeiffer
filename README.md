@@ -45,7 +45,7 @@ Main Content – will include images and text on partnership and advertising opp
 
 Footer – will include copyright information, website link, contact link, and social media links
 
-![Wireframe of Contact](wireframes/contact.jpg)
+![Wireframe of Contact](wireframes/Contact.jpg)
 
 Header – will include website logo, mission statement, and navigation menu
 
