@@ -71,6 +71,9 @@ img {max-width: 100%;}
 .footer-contact {list-style: none; font-size: 14px; text-align: right; }
 .footer-contact {float: left; }
 
+.footer ul,
+.footer p {display: inline-block; vertical-align: middle; width: 33%; }
+
 .copyright {font-size: 14px; text-align: center; }
 
 
