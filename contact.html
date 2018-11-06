@@ -41,13 +41,52 @@
     <br />
 
     <hr />
-    <p>Learn more about Great Lakes Bay Moms and how you can partner with me. Please fill out the form below and I will
-      contact you as soon as possible.</p>
+    <p>Learn more about Great Lakes Bay Moms and how you can partner with me.</p>
+    <form action="https://formspree.io/greatlakesbayparents@gmail.com" method="POST" class="validate">
+      <fieldset class="form">
+        <legend>
+          Contact Details
+        </legend>
+        <label>
+          Name:<br />
+          <input id="name" type="text" name="name" class="form-input">
+          <br />
+        </label>
+        <label>
+          Business/ Organization:<br />
+          <input id="business-organization" type="text" name="name" class="form-input" required>
+          <br />
+        </label>
+        <label>
+          Email:<br />
+          <input id="email" type="email" name="_replyto" class="form-input" required>
+          <br />
+        </label>
+        <br />
+        <label>
+        What information are you interested in?</label>
+        <br />
+        <br />
+        <label>Advertising
+          <input type="radio" name="interest" value="Advertising" checked="checked" class="form-input" />
+        Sponsorship
+          <input type="radio" name="interest" value="Sponsorship" class="form-input" />
+        </label><br />
+
+        <br />
+      <label>
+        <input class="send" type="submit" value="Send">
+      </label>
+        <br />
+      </fieldset>
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html" />
+    </form>
 
 
 
     <hr />
   </main>
+  <script src="script.js"></script>
   <footer class="footer">
 
 
